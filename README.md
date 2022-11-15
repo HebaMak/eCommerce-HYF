@@ -29,3 +29,6 @@
 - and the clicked button will have different style than its siblings
 
 [![Header](https://res.cloudinary.com/hapiii/image/upload/v1668539691/HYF/React/lrwyawniuamri2ctuv6f.jpg)](https://some-url.dev/)
+
+- the app is responsive
+- the app still needs work 
