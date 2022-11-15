@@ -1,4 +1,4 @@
-export default [
+export const allCategories = [
   "FAKE: electronics",
   "FAKE: jewelery",
   "FAKE: men's clothing",

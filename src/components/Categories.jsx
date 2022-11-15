@@ -1,4 +1,4 @@
-import allCategories from "../fake-data/all-categories"
+import {allCategories} from "../fake-data/all-categories"
 
 import Category from "./Category"
 

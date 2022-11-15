@@ -1,6 +1,6 @@
 import { createContext , useState } from "react";
 
-import allProducts from '../fake-data/all-products'
+import {allProducts} from '../fake-data/all-products'
 
 
 
