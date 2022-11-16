@@ -32,6 +32,5 @@
 
 - the app is responsive
 - the app still needs work 
-
--the app link on Nitlify:
+- the app link on Nitlify:
 https://incomparable-beignet-a0fda3.netlify.app/
