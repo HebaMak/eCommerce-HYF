@@ -1,4 +1,6 @@
 ## eCommerce React app
+- the app link on Nitlify:
+https://incomparable-beignet-a0fda3.netlify.app/
 
 - the app fetch the data of products and categories buttons from given files for now.  
 - the page consists of title, the categories buttons and all products like that:
@@ -32,3 +34,5 @@
 
 - the app is responsive
 - the app still needs work 
+- the app link on Nitlify:
+https://incomparable-beignet-a0fda3.netlify.app/
