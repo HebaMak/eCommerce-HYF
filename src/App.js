@@ -1,11 +1,19 @@
-import './App.css';
-import Products from './components/Products';
+import { BrowserRouter , Routes , Route} from 'react-router-dom';
 import ProductContext from './hooks/context';
+import Products from './components/Products';
+import ProductDetails from './components/ProductDetails';
+import './App.css';
 
 function App() {
   return (
     <ProductContext>
-      <Products />
+      <BrowserRouter>
+        <h1 className="title">Products</h1>
+        <Routes>
+          <Route path='/'  element={<Products />}/>
+          <Route path='/product/:id'  element={<ProductDetails />}/>
+        </Routes>
+      </BrowserRouter>
     </ProductContext>
   );
 }

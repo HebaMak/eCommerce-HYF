@@ -10,7 +10,7 @@ function Category({category}) {
       <button className="category"
               onClick={(e)=>filterProducts( e  , category)}
               >
-        {category.substring(5).trim()}
+        {category}
       </button>
     </>
   )

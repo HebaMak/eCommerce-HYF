@@ -1,19 +1,21 @@
-import { createContext , useState } from "react";
-
-import {allProducts} from '../fake-data/all-products'
-
-
+import { createContext , useState, useEffect } from "react";
+import useFetch from "./useFetch";
 
 export const provideContext = createContext()
 
 const ProductContext = ({children}) => {
-const [products , setProducts] = useState(allProducts)
+  const URL = 'https://fakestoreapi.com/products'
+  const {data: allProducts ,  isLoading , error} = useFetch(URL);
+  const {data: categories} = useFetch(`${URL}/categories`)
+  const [products , setProducts] = useState([])
+  useEffect(() => {
+    setProducts(allProducts)
+  } , [allProducts])
+
 
   const filterProducts = (e , cate) => {
-    const category = cate.substring(5).trim()
-
     //filter out the products to that related to clicked button
-    const filteredProducts = allProducts.filter(product=> product.category === category)
+    const filteredProducts = allProducts.filter(product=> product.category === cate)
     setProducts(filteredProducts)
 
     //activate the clicked button
@@ -22,10 +24,15 @@ const [products , setProducts] = useState(allProducts)
     })
     e.target.classList.add('active')
   }
+  
 
   const value = {
     products,
-    filterProducts
+    categories,
+    filterProducts,
+    isLoading, 
+    error,
+    URL
   }
 
   return(

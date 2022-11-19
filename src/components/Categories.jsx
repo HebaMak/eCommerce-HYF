@@ -1,13 +1,15 @@
-import {allCategories} from "../fake-data/all-categories"
-
 import Category from "./Category"
+import {useContext} from 'react'
+import { provideContext } from "../hooks/context"
+
 
 function Categories() {
+  const {categories} = useContext(provideContext)
   
   return (
     <div className="categories_container"> 
-      {
-        allCategories.map((category, index) => (
+      {categories &&
+        categories.map((category, index) => (
           <Category key={index} category={category} />
         ))
       }
