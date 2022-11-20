@@ -44,13 +44,7 @@ Loading img for products:
 
 [![Header](https://res.cloudinary.com/hapiii/image/upload/v1668902470/react-apps/ktba5decrtmai60npmrc.jpg)](https://some-url.dev/)
 
-<<<<<<< HEAD
 
-||||||| 767b8a0
-=======
-----------------
-
->>>>>>> e6308cd27689af457599637e9482a36a2e8ace48
 Loading img for product details:
 
 [![Header](https://res.cloudinary.com/hapiii/image/upload/v1668902470/react-apps/oqolc7ctiyny7zy7bybz.jpg)](https://some-url.dev/)
@@ -62,13 +56,7 @@ Error img for products:
 
 [![Header](https://res.cloudinary.com/hapiii/image/upload/v1668902470/react-apps/crajupns89cfsxyzcx4v.jpg)](https://some-url.dev/)
 
-<<<<<<< HEAD
 
-||||||| 767b8a0
-=======
-------------
-
->>>>>>> e6308cd27689af457599637e9482a36a2e8ace48
 Error img for not found product:
 
 [![Header](https://res.cloudinary.com/hapiii/image/upload/v1668902470/react-apps/ikfem3uqancmn9ri1fg9.jpg)](https://some-url.dev/)
