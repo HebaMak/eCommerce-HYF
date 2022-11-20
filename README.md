@@ -2,7 +2,8 @@
 - the app link on Nitlify:
 https://incomparable-beignet-a0fda3.netlify.app/
 
-- the app fetch the data of products and categories buttons from given files for now.  
+- the app fetch the data of products and categories buttons from this API: https://fakestoreapi.com/products.
+
 - the page consists of title, the categories buttons and all products like that:
 
 [![Header](https://res.cloudinary.com/hapiii/image/upload/v1668539497/HYF/React/ouru2f5ao9f4bva4pga9.png)](https://some-url.dev/)
@@ -31,6 +32,29 @@ https://incomparable-beignet-a0fda3.netlify.app/
 - and the clicked button will have different style than its siblings
 
 [![Header](https://res.cloudinary.com/hapiii/image/upload/v1668539691/HYF/React/lrwyawniuamri2ctuv6f.jpg)](https://some-url.dev/)
+
+
+- click on any product direct the user to the details page which has more details about the product
+
+[![Header](https://res.cloudinary.com/hapiii/image/upload/v1668902470/react-apps/km96rqbwzvrw4yy13emz.png)](https://some-url.dev/)
+
+- there are Loading message and Loading jif will show up until the data fetched, another Loading message when user clicks on any product until the product details come
+
+Loading img for products:
+[![Header](https://res.cloudinary.com/hapiii/image/upload/v1668902470/react-apps/ktba5decrtmai60npmrc.jpg)](https://some-url.dev/)
+
+Loading img for product details:
+[![Header](https://res.cloudinary.com/hapiii/image/upload/v1668902470/react-apps/oqolc7ctiyny7zy7bybz.jpg)](https://some-url.dev/)
+
+
+- there are Error message and Error jif will show up if there is an error in the API, another Error message when user search for a product not found
+
+
+Error img for products:
+[![Header](https://res.cloudinary.com/hapiii/image/upload/v1668902470/react-apps/crajupns89cfsxyzcx4v.jpg)](https://some-url.dev/)
+
+Error img for not found product:
+[![Header](https://res.cloudinary.com/hapiii/image/upload/v1668902470/react-apps/ikfem3uqancmn9ri1fg9.jpg)](https://some-url.dev/)
 
 - the app is responsive
 - the app still needs work 
