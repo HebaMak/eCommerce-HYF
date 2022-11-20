@@ -18,12 +18,12 @@ function ProductDetails() {
     {isLoading && <Loading title='Details coming soon' />}
     {error && <Error title='Error is occurs while loading the details'/>}
     {
-      product && 
-        <div className='details-Container'>
+      product &&
+        <div className={isLoading ? 'details-Container none' : 'details-Container'}>
           <div className="left">
             <img src={image} alt={title} className='product-image'/>
           </div>
-          <div className="right">
+          <div className= 'right' >
             <h1>{title}</h1>
             <h2>{category}</h2>
             <p>{description}</p>

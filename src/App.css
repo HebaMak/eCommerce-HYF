@@ -67,7 +67,7 @@ a {
 .error {
   position: relative;
   width: 70%;
-  height: 100vh;
+  max-height: 100vh;
   margin: auto;
   text-align: center;
 }
@@ -82,6 +82,10 @@ a {
 }
 
 /* product details  */
+.details-Container.none {
+  display: none;
+}
+
 .details-Container {
   display: flex;
   width: 70%;
