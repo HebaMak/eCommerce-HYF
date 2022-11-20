@@ -43,6 +43,7 @@ https://incomparable-beignet-a0fda3.netlify.app/
 Loading img for products:
 [![Header](https://res.cloudinary.com/hapiii/image/upload/v1668902470/react-apps/ktba5decrtmai60npmrc.jpg)](https://some-url.dev/)
 
+
 Loading img for product details:
 [![Header](https://res.cloudinary.com/hapiii/image/upload/v1668902470/react-apps/oqolc7ctiyny7zy7bybz.jpg)](https://some-url.dev/)
 
