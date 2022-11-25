@@ -20,7 +20,7 @@ a {
   margin: 0 7px;
   cursor: pointer;
   border-radius: 5px;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   text-transform: capitalize;
 }
 .category:hover,
@@ -63,7 +63,7 @@ a {
 }
 
 /* loading page  */
-.loading , 
+.loading,
 .error {
   position: relative;
   width: 70%;
@@ -71,11 +71,11 @@ a {
   margin: auto;
   text-align: center;
 }
-.loading img ,
+.loading img,
 .error img {
   width: 300px;
 }
-.loading h2 ,
+.loading h2,
 .error h2 {
   font-size: 30px;
   letter-spacing: 1px;
@@ -85,7 +85,6 @@ a {
 .details-Container.none {
   display: none;
 }
-
 .details-Container {
   display: flex;
   width: 70%;
@@ -125,13 +124,13 @@ a {
 }
 
 /* media query */
-@media (max-width:  768px) { 
+@media (max-width: 768px) {
   .category_container {
     display: flex;
     justify-content: center;
     margin-bottom: 0px;
     flex-wrap: wrap;
-  } 
+  }
   .category {
     padding: 8px;
     font-size: 17px;
@@ -166,38 +165,38 @@ a {
   }
 }
 
-@media (min-width: 769px)and (max-width: 849px) { 
+@media (min-width: 769px) and (max-width: 849px) {
   .category {
     font-size: 18px;
   }
-    /* product details */
-    .details-Container {
-      display: block;
-      width: 80%;
-    }
-    .details-Container .right {
-      padding: 10px 30px;
-    }
-    .left .product-image {
-      width: 50%;
-      margin: auto;
-    }
-    .right h1 {
-      margin-bottom: 30px;
-      font-size: 28px;
-    }
-    .right h2 {
-      font-size: 22px;
-    }
-    .right p {
-      font-size: 20px;
-    }
-    .right h4 {
-      font-size: 20px;
-    }
+  /* product details */
+  .details-Container {
+    display: block;
+    width: 80%;
+  }
+  .details-Container .right {
+    padding: 10px 30px;
+  }
+  .left .product-image {
+    width: 50%;
+    margin: auto;
+  }
+  .right h1 {
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  .right h2 {
+    font-size: 22px;
+  }
+  .right p {
+    font-size: 20px;
+  }
+  .right h4 {
+    font-size: 20px;
+  }
 }
 
-@media (min-width: 850px)and (max-width: 1199px) {
+@media (min-width: 850px) and (max-width: 1199px) {
   /* product details */
   .details-Container {
     width: 90%;
