@@ -1,7 +1,7 @@
 ## eCommerce React app
 
 - the app link on Nitlify:
-https://incomparable-beignet-a0fda3.netlify.app/
+https://heba-hyf-ecommerce.netlify.app/
 
 - the app fetch the data of products and categories buttons from this API: https://fakestoreapi.com/products.
 
