@@ -1,17 +1,25 @@
 import { Link } from "react-router-dom";
+import Heart from "./Heart";
 
-function Product({ product }) {
-  const { title, image, id } = product;
+const Product = ({ product }) => {
+  const { image, id, title, price } = product;
+
   return (
-    <div div className="product">
+    <>
       {product && (
-        <Link to={`/product/${id}`}>
-          <img className="image" src={image} alt={title} />
-          <h3 className="title">{title.substring(5)}</h3>
-        </Link>
+        <div className="product">
+          <Link to={`/product/${id}`}>
+            <img src={image} alt={title} className="product-image" />
+            <h3 className="product-description">{title}</h3>
+          </Link>
+          <div className="rating">
+            <h3>Price: {price}$</h3>
+            <Heart id={id} />
+          </div>
+        </div>
       )}
-    </div>
+    </>
   );
-}
+};
 
 export default Product;

@@ -6,6 +6,22 @@ a {
   color: inherit;
 }
 
+/* Navbar */
+nav {
+  text-align: center;
+  margin: 30px;
+}
+
+nav a {
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+nav a.active {
+  font-weight: 700;
+  color: rgb(78, 21, 131);
+}
+
 /* categories */
 .categories_container {
   display: flex;
@@ -20,7 +36,7 @@ a {
   margin: 0 7px;
   cursor: pointer;
   border-radius: 5px;
-  transition: all 0.5s ease-in-out;
+  transition: all .5s ease-in-out;
   text-transform: capitalize;
 }
 .category:hover,
@@ -33,49 +49,109 @@ a {
 .title {
   text-align: center;
 }
-.products_container {
-  margin: auto;
+.products {
+  margin: 5px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   width: 80%;
   text-align: center;
 }
-.product h3 {
+.products h3 {
   text-align: center;
+  width: 80%;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .product {
-  flex-basis: 350px;
+  width: 350px;
   height: 400px;
   margin: 20px auto;
   border: 1px solid rgb(201, 201, 211);
   border-radius: 15px;
-  padding: 30px;
+  padding-top: 10px;
   cursor: pointer;
 }
-.product .image {
+.product a {
+  text-decoration: none;
+  color: #333;
+}
+.product-image {
   height: 60%;
   width: 60%;
   margin: auto;
   object-fit: contain;
 }
+.product-description {
+  width: 90%;
+  margin: 0 auto -10px;
+  font-size: 16px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rating h3 {
+  flex-basis: 45%;
+}
+.fav_icon {
+  flex-basis: 45%;
+  width: 20px;
+  height: 20px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+/* product details  */
+.details-Container {
+  text-align: center;
+  padding-top: 10px;
+  display: flex;
+  width: 60%;
+  margin: 70px auto;
+  text-align: center;
+}
+.details-Container.none {
+  display: none;
+}
+.details {
+  padding: 20px;
+  width: 50%;
+  height: 400px;
+  text-align: left;
+  align-items: center; 
+  justify-content: center;
+}
+.details h2 {
+  text-transform: capitalize;
+}
+.details p {
+  line-height: 1.5;
+  margin: 20px 0;
+}
+p::first-letter {
+  text-transform: uppercase;
+}
 
 /* loading page  */
-.loading,
+.loading , 
 .error {
   position: relative;
   width: 70%;
-  max-height: 100vh;
+  height: 100vh;
   margin: auto;
   text-align: center;
 }
-.loading img,
+.loading img ,
 .error img {
   width: 300px;
 }
-.loading h2,
+.loading h2 ,
 .error h2 {
   font-size: 30px;
   letter-spacing: 1px;
@@ -90,7 +166,6 @@ a {
   width: 70%;
   margin: 70px auto;
   justify-content: space-between;
-  border: 1px solid #ddd;
   border-radius: 10px;
 }
 .details-Container .left {
@@ -123,14 +198,33 @@ a {
   font-size: 20px;
 }
 
+/* favorites page */
+.favorites_page {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.favorites_page .fav_title {
+  text-transform: capitalize;
+  margin-top: 150px;
+  text-align: center;
+}
+.favorites_page .fav_title.none {
+  display: none;
+}
+.fav_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* media query */
-@media (max-width: 768px) {
+@media (max-width:  768px) { 
   .category_container {
     display: flex;
     justify-content: center;
     margin-bottom: 0px;
     flex-wrap: wrap;
-  }
+  } 
   .category {
     padding: 8px;
     font-size: 17px;
@@ -165,38 +259,38 @@ a {
   }
 }
 
-@media (min-width: 769px) and (max-width: 849px) {
+@media (min-width: 769px)and (max-width: 849px) { 
   .category {
     font-size: 18px;
   }
-  /* product details */
-  .details-Container {
-    display: block;
-    width: 80%;
-  }
-  .details-Container .right {
-    padding: 10px 30px;
-  }
-  .left .product-image {
-    width: 50%;
-    margin: auto;
-  }
-  .right h1 {
-    margin-bottom: 30px;
-    font-size: 28px;
-  }
-  .right h2 {
-    font-size: 22px;
-  }
-  .right p {
-    font-size: 20px;
-  }
-  .right h4 {
-    font-size: 20px;
-  }
+    /* product details */
+    .details-Container {
+      display: block;
+      width: 80%;
+    }
+    .details-Container .right {
+      padding: 10px 30px;
+    }
+    .left .product-image {
+      width: 50%;
+      margin: auto;
+    }
+    .right h1 {
+      margin-bottom: 30px;
+      font-size: 28px;
+    }
+    .right h2 {
+      font-size: 22px;
+    }
+    .right p {
+      font-size: 20px;
+    }
+    .right h4 {
+      font-size: 20px;
+    }
 }
 
-@media (min-width: 850px) and (max-width: 1199px) {
+@media (min-width: 850px)and (max-width: 1199px) {
   /* product details */
   .details-Container {
     width: 90%;
