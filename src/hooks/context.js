@@ -17,7 +17,7 @@ const ProductContext = ({ children }) => {
   useEffect(() => {
     setProducts(allProducts);
     localStorage.setItem("favorites", JSON.stringify(favorites));
-  }, [allProducts, favorites]);
+  }, [allProducts, favorites, products]);
 
   const filterProducts = (e, cate) => {
     //filter out the products to that related to clicked button
