@@ -11,14 +11,14 @@ const ProductDetails = () => {
   const {
     data: product,
     isLoading,
-    error,
+    isError,
   } = useFetch(`https://fakestoreapi.com/products/${ID}`);
   const { category, description, title } = product;
 
   return (
     <>
       {isLoading && <Loading title="Details coming soon" />}
-      {error && <Error title="Error is occurs while loading the details" />}
+      {isError && <Error title="Error is occurs while loading the details" />}
       {product && (
         <div
           className={isLoading ? "details-Container none" : "details-Container"}

@@ -6,14 +6,14 @@ import Loading from "../components/Loading";
 import Error from "../components/Error";
 
 function Products() {
-  const { products, isLoading, error } = useContext(provideContext);
+  const { products, isLoading, isError } = useContext(provideContext);
 
   return (
     <>
       {isLoading && (
         <Loading title="Just count to 10 and Products will Come 😀" />
       )}
-      {error && <Error title="Error in Fetching data" />}
+      {isError && <Error title="Error in Fetching data" />}
       <Categories />
       <div className="products">
         {products &&

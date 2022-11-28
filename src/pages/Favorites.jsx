@@ -8,8 +8,8 @@ const Favorites = () => {
   const { favorites, URL } = useContext(provideContext);
 
   const [favProducts, setFavProducts] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(false);
+  const [isLoading, setLoading] = useState(true);
+  const [isError, setError] = useState(false);
 
   useEffect(() => {
     const promises = favorites.map((id) => {
@@ -33,8 +33,8 @@ const Favorites = () => {
 
   return (
     <div className="favorites_page">
-      {loading && <Loading title="Favorites Products Coming Soon" />}
-      {error && (
+      {isLoading && <Loading title="Favorites Products Coming Soon" />}
+      {isError && (
         <Error title="Error is occurs while loading the Favorites Products" />
       )}
       <h1 className={favProducts.length === 0 ? "fav_title" : "fav_title none"}>

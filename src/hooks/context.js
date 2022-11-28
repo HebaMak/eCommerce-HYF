@@ -6,7 +6,7 @@ export const provideContext = createContext();
 const ProductContext = ({ children }) => {
   const URL = "https://fakestoreapi.com/products";
 
-  const { data: allProducts, isLoading, error } = useFetch(URL);
+  const { data: allProducts, isLoading, isError } = useFetch(URL);
   const [products, setProducts] = useState([]);
   const [favorites, setFavorites] = useState(
     localStorage.getItem("favorites")
@@ -50,7 +50,7 @@ const ProductContext = ({ children }) => {
     products,
     filterProducts,
     isLoading,
-    error,
+    isError,
     URL,
     handleFavorite,
     isFavorite,
