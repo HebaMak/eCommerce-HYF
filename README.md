@@ -11,7 +11,7 @@ https://heba-hyf-ecommerce.netlify.app/
 
 
 
-- each product has an image, name, and price these data fetched from the API, and favorite icon to check this product as favorite
+- each product has an image, name, and price these data fetched from the API, and favorite icon to check this product as favorite.
 
 [![Header](https://res.cloudinary.com/hapiii/image/upload/v1669806335/react-apps/umutp3sqiufzpefwkkfp.jpg)](https://some-url.dev/)
 [![Header](https://res.cloudinary.com/hapiii/image/upload/v1669231585/react-apps/woekupkqztv15fi2aokh.jpg)](https://some-url.dev/)
@@ -30,16 +30,16 @@ https://heba-hyf-ecommerce.netlify.app/
 
 
 
-- and the clicked button will have different style than its siblings
+- and the clicked button will have different style than its siblings.
 
 [![Header](https://res.cloudinary.com/hapiii/image/upload/v1668539691/HYF/React/lrwyawniuamri2ctuv6f.jpg)](https://some-url.dev/)
 
 
-- click on any product direct the user to the details page which has more details about the product and if the product is in favorites or not
+- click on any product direct the user to the details page which has more details about the product and if the product is in favorites or not.
 
 [![Header](https://res.cloudinary.com/hapiii/image/upload/v1669806825/react-apps/hhkusgrjz0pobmm68dp6.jpg)](https://some-url.dev/)
 
-- there are Loading message and Loading jif will show up until the data fetched, another Loading message when user clicks on any product until the product details come
+- there are Loading message and Loading jif will show up until the data fetched, another Loading message when user clicks on any product until the product details come.
 
 Loading img for products:
 
@@ -51,7 +51,7 @@ Loading img for product details:
 [![Header](https://res.cloudinary.com/hapiii/image/upload/v1668902470/react-apps/oqolc7ctiyny7zy7bybz.jpg)](https://some-url.dev/)
 
 
-- there are Error message and Error jif will show up if there is an error in the API, another Error message when user search for a product not found
+- there are Error message and Error jif will show up if there is an error in the API, another Error message when user search for a product not found.
 
 Error img for products:
 
@@ -62,13 +62,17 @@ Error img for not found product:
 
 [![Header](https://res.cloudinary.com/hapiii/image/upload/v1668902470/react-apps/ikfem3uqancmn9ri1fg9.jpg)](https://some-url.dev/)
 
-- the favorite page containes all product the user make the favorite 
+- the favorite page containes all product the user make the favorite.
+
 [![Header](https://res.cloudinary.com/hapiii/image/upload/v1669806550/react-apps/hdaqfs02adwyfmgbyf63.png)](https://some-url.dev/)
 
-- if the user clicks on a favorite icon of a specific product, makes the product in favorite page and the icon showen clicked in all products page, product details and favorite page. and when user clicks on it again from any page the product removed from favorite page.  
+- if the user clicks on a favorite icon of a specific product, makes the product in favorite page and the icon showen clicked in all products page, product details and favorite page. and when user clicks on it again from any page the product removed from favorite page.
+
+the favorite and not favorite icon
+
 [![Header](https://res.cloudinary.com/hapiii/image/upload/v1669807419/react-apps/rvyuhp9zkpgsewmf9nzd.jpg)](https://some-url.dev/)
 
-- the app remembers the products the user make them favorite with refresh or reload 
-- the app is responsive 
+- the app remembers the products the user make them favorite with refresh or reload.
+- the app is responsive. 
 - the app link on Nitlify:
 https://incomparable-beignet-a0fda3.netlify.app/
