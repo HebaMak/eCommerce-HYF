@@ -66,6 +66,7 @@ Error img for not found product:
 [![Header](https://res.cloudinary.com/hapiii/image/upload/v1669806550/react-apps/hdaqfs02adwyfmgbyf63.png)](https://some-url.dev/)
 
 - if the user clicks on a favorite icon of a specific product, makes the product in favorite page and the icon showen clicked in all products page, product details and favorite page. and when user clicks on it again from any page the product removed from favorite page.  
+[![Header](https://res.cloudinary.com/hapiii/image/upload/v1669807419/react-apps/rvyuhp9zkpgsewmf9nzd.jpg)](https://some-url.dev/)
 
 - the app remembers the products the user make them favorite with refresh or reload 
 - the app is responsive 
