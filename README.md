@@ -62,6 +62,9 @@ Error img for not found product:
 
 [![Header](https://res.cloudinary.com/hapiii/image/upload/v1668902470/react-apps/ikfem3uqancmn9ri1fg9.jpg)](https://some-url.dev/)
 
+- the favorite page containes all product the user make the favorite 
+[![Header](https://res.cloudinary.com/hapiii/image/upload/v1669806550/react-apps/hdaqfs02adwyfmgbyf63.png)](https://some-url.dev/)
+
 - the app is responsive
 - the app still needs work 
 - the app link on Nitlify:
