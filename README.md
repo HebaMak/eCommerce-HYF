@@ -11,10 +11,10 @@ https://heba-hyf-ecommerce.netlify.app/
 
 
 
-- each product has an image and name, these data fetched from the file of products data
+- each product has an image, name, and price these data fetched from the API, and favorite icon to check this product as favorite
 
-[![Header](https://res.cloudinary.com/hapiii/image/upload/v1668539691/HYF/React/wfdefzmjykribce9ekyd.jpg)](https://some-url.dev/)
-[![Header](https://res.cloudinary.com/hapiii/image/upload/v1668539691/HYF/React/hyyi9vawomyhyzwclztu.jpg)](https://some-url.dev/)
+[![Header](https://res.cloudinary.com/hapiii/image/upload/v1669806335/react-apps/umutp3sqiufzpefwkkfp.jpg)](https://some-url.dev/)
+[![Header](https://res.cloudinary.com/hapiii/image/upload/v1669231585/react-apps/woekupkqztv15fi2aokh.jpg)](https://some-url.dev/)
 
 
 
