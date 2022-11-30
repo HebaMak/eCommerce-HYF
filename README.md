@@ -35,9 +35,9 @@ https://heba-hyf-ecommerce.netlify.app/
 [![Header](https://res.cloudinary.com/hapiii/image/upload/v1668539691/HYF/React/lrwyawniuamri2ctuv6f.jpg)](https://some-url.dev/)
 
 
-- click on any product direct the user to the details page which has more details about the product
+- click on any product direct the user to the details page which has more details about the product and if the product is in favorites or not
 
-[![Header](https://res.cloudinary.com/hapiii/image/upload/v1668902470/react-apps/km96rqbwzvrw4yy13emz.png)](https://some-url.dev/)
+[![Header](https://res.cloudinary.com/hapiii/image/upload/v1669806825/react-apps/hhkusgrjz0pobmm68dp6.jpg)](https://some-url.dev/)
 
 - there are Loading message and Loading jif will show up until the data fetched, another Loading message when user clicks on any product until the product details come
 
