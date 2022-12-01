@@ -51,7 +51,6 @@ const ProductContext = ({ children }) => {
     filterProducts,
     isLoading,
     isError,
-    URL,
     handleFavorite,
     isFavorite,
     favorites,

@@ -1,11 +1,10 @@
-import { useContext } from "react";
-import { provideContext } from "../hooks/context";
 import useFetch from "../hooks/useFetch";
 import Category from "./Category";
 
 function Categories() {
-  const { URL } = useContext(provideContext);
-  const { data: categories } = useFetch(`${URL}/categories`);
+  const { data: categories } = useFetch(
+    "https://fakestoreapi.com/products/categories"
+  );
 
   return (
     <div className="categories_container">

@@ -13,7 +13,7 @@ const ProductDetails = () => {
     isLoading,
     isError,
   } = useFetch(`https://fakestoreapi.com/products/${ID}`);
-  const { category, description, title } = product;
+  const { category, description, title, rating } = product;
 
   return (
     <>
@@ -28,6 +28,8 @@ const ProductDetails = () => {
             <h2>{title}</h2>
             <h3>{category}</h3>
             <p>{description}</p>
+            <h3>Rating: {rating.rate}</h3>
+            <h3>Sold: {rating.count} times</h3>
           </div>
         </div>
       )}
