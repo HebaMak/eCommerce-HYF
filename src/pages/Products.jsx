@@ -6,7 +6,8 @@ import Loading from "../components/Loading";
 import Error from "../components/Error";
 
 function Products() {
-  const { products, isLoading, isError } = useContext(provideContext);
+  const { products, isLoading, isError, filteredPro } =
+    useContext(provideContext);
 
   return (
     <>
@@ -16,10 +17,15 @@ function Products() {
       {isError && <Error title="Error in Fetching data" />}
       <Categories />
       <div className="products">
-        {products &&
-          products.map((product) => {
-            return <Product key={product.id} product={product} />;
-          })}
+        {filteredPro.length === 0
+          ? products &&
+            products.map((product) => (
+              <Product key={product.id} product={product} />
+            ))
+          : products &&
+            filteredPro.map((product) => (
+              <Product key={product.id} product={product} />
+            ))}
       </div>
     </>
   );

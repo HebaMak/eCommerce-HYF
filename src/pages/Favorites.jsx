@@ -27,9 +27,7 @@ const Favorites = () => {
         setError(true);
         setLoading(false);
       });
-
-    console.log("products", favProducts);
-  }, [favorites, URL, favProducts]);
+  }, [favorites, URL]);
 
   return (
     <div className="favorites_page">
@@ -44,7 +42,7 @@ const Favorites = () => {
         <div className="fav_container">
           {favProducts &&
             favProducts.map((product) => {
-              return <Product product={product} />;
+              return <Product product={product} key={product.id} />;
             })}
         </div>
       )}
