@@ -7,7 +7,7 @@ https://heba-hyf-ecommerce.netlify.app/
 
 - the page consists of title, the categories buttons and all products like that:
 
-[![Header](https://res.cloudinary.com/hapiii/image/upload/v1669116234/react-apps/qhyrkbamwpey3wc7xsxh.png)](https://some-url.dev/)
+[![Header](https://res.cloudinary.com/hapiii/image/upload/v1670507062/HYF/React/sj8glifwdyyvu6ekh443.png)](https://some-url.dev/)
 
 
 
